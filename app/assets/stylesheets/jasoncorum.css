@@ -1,0 +1,66 @@
+body {
+	font: 18px/30px Sans-serif; color: #fff;
+	padding: 0px;
+	margin: 0px;
+}
+
+section {
+	overflow-x: hidden;
+}
+
+ul {
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+}
+
+#intro { 
+	background: #16a085 url(introduction.png); 
+	background-size: cover;
+	height: 900px;
+}
+
+	#intro h1 {
+		width: 849px; height: 73px;
+		background: url(intro-title.png); text-indent: -9999px;
+		position: relative; top: 145px; left: 0;
+	}
+
+	#intro p {
+		position: relative; top: 200px; left: 350px;
+		width: 508px; margin: 0 0 30px 0;
+	}
+
+	#intro p:nth-child(2) {
+		font-weight: bold;
+	}
+
+
+#textbike {
+	background: #e74c3c url(textbike-bg.png);
+	background-size: cover;
+	height: 500px;
+}
+
+	#textbike h2 {
+		text-indent: 0px;
+		position: relative; top: 70px; left: 90px;
+		font-size: 4em;
+	}
+	
+	#textbike p {
+		position: relative; 
+		top: 50px;
+		left: 100px;
+		width: 500px;
+	}
+
+	#textbike-photo {
+		position: relative;
+		float: right; 
+		top: 100px; 
+		padding-right: 10%;
+		transform: rotate(10deg);
+		-moz-transform: rotate(10deg);
+		-webkit-transform: rotate(10deg);
+	}
