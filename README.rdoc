@@ -1,0 +1,7 @@
+== JASONCORUM.COM
+
+jasoncorum.com is an online portfolio site for the web developer Jason Corum.
+
+Ruby version: ruby 2.1.1
+
+Rails version: Rails 4.1.1
