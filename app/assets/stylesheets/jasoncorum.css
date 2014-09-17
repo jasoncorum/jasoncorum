@@ -28,7 +28,8 @@ ul {
 
 	#intro p {
 		position: relative; top: 200px; left: 350px;
-		width: 508px; margin: 0 0 30px 0;
+		width: 508px; 
+		margin: 0 0 30px 0;
 	}
 
 	#intro p:nth-child(2) {
@@ -64,3 +65,11 @@ ul {
 		-moz-transform: rotate(10deg);
 		-webkit-transform: rotate(10deg);
 	}
+
+#footer {
+	background: #000;
+}
+
+	#footer p {
+		text-align: center;
+}	
