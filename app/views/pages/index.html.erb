@@ -1,39 +1,41 @@
 <% provide(:title, 'Home') %>
 	
-	<div class="container">
+<div class="container">
+	<li>
 		<div class="row">
 			<div class="col-md-12">
-
-				<li>
-					<section id="intro">
-						<h1>Jason Corum</h1>
-			
-						<p>Hello! I'm a Washington, DC-based Ruby on Rails web developer.</p>
+				<section id="intro">
+					<h1>Jason Corum</h1>
 		
-						<p>After almost a decadle in online communications with a number of organizations in DC (The Brookings Institution, World Food Program USA, and the Biotechnology Industry Organization), I decided to switch over to coding. I am currently freelancing and interested in becoming a full-time web developer.</p>
-		
-						<p>This site includes some examples of my work.</p></div>
-		
-		</section>
-		</li>
-	</div>
-		
-	<li>
-		<section id="textbike">		
-			
-			<%= image_tag "textbike.png", alt: "Bikes", id: "textbike-photo" %>
-		
-			<h2>TextBike.com</h2>
-
-			<p>TextBike.com is the project I completed for my Back-End Web Development course with General Assembly. </p>
-
-			<p>Ever end up going to your regular Bikeshare station for your daily commute only to find that tourists have snaked all the bikes? Yeah, me too...</p>
-
-			<p>TextBike will text you 5-10 minutes before your regular commute time to let you know if your bikestation is precariously low on the number of available bikes.</p> 
-
-			<p>It uses Twilio and Capital Bikeshare XML data to notify users when their bikestation is low on bikes.</p>
-
-			<p><%= link_to "Learn more >>", "http://www.textbike.com/", target: "_blank" %></p>
+					<p>Hello! I'm a Washington, DC-based Ruby on Rails web developer.</p>
 	
-		</section>
-	</li> s
+					<p>After almost a decadle in online communications with a number of organizations in DC (The Brookings Institution, World Food Program USA, and the Biotechnology Industry Organization), I decided to switch over to coding. I am currently freelancing and interested in becoming a full-time web developer.</p>
+	
+					<p>This site includes some examples of my work.</p></div>
+	
+	</section>
+	</li>
+</div>
+
+	<li>
+		<div class="row">
+			<section id="textbike">		
+				<div class="col-md-6">				
+					<h2>TextBike.com</h2>
+
+					<p>TextBike.com is the project I completed for my Back-End Web Development course with General Assembly. </p>
+
+					<p>Ever end up going to your regular Bikeshare station for your daily commute only to find that tourists have snaked all the bikes? Yeah, me too...</p>
+
+					<p>TextBike will text you 5-10 minutes before your regular commute time to let you know if your bikestation is precariously low on the number of available bikes.</p> 
+
+					<p>It uses Twilio and Capital Bikeshare XML data to notify users when their bikestation is low on bikes.</p>
+
+					<p><%= link_to "Learn more >>", "http://www.textbike.com/", target: "_blank" %></p></div>
+
+					<div class="col-md-6">				
+						<%= image_tag "textbike.png", alt: "Bikes", id: "textbike-photo" %></div>
+			</section>
+		</div>
+	</li>
+</div>

@@ -87,10 +87,9 @@ a:hover {
 }
 
 	#textbike h2 {
-		text-indent: 0px;
 		position: relative; 
-		top: 8%; 
-		left: 90px;
+		margin-top: 10%; 
+		margin-left: 8%;
 		font-size: 4em;
 	}
 	
@@ -98,14 +97,16 @@ a:hover {
 		position: relative; 
 		top: 5%;
 		left: 8%;
-		width: 45%;
 	}
 
 	#textbike-photo {
 		position: relative;
-		float: right; 
-		top: 20%; 
-		padding-right: 10%;
+		float: right;
+		margin-right: 10%;
+		margin-top: 10%;
+		transform: rotate(7deg);
+		-ms-transform: rotate(7deg); /* IE 9 */
+    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
 	}
 
 #footer {
