@@ -6,7 +6,7 @@ body {
 
 section {
 	overflow-x: hidden;
-	height: 750px;
+	height: 100vh;
 }
 
 ul {

@@ -7,12 +7,12 @@ $(document).ready(function(){
 		blocks:'.curtains'
 	});
     
-    scrollorama.animate('#intro h1',{
-    	duration:300, property:'left', end:-849
-    });
+  scrollorama.animate('#intro h1',{
+  	duration:300, property:'left', end:-849
+  });
 
-  	scrollorama.animate('#textbike-photo',{
-			delay:100, duration:750, property:'rotate', start:-10, end:10
-		});
+  scrollorama.animate('#textbike-photo',{
+		delay:100, duration:750, property:'rotate', start:-10, end:10
+	});
     
 });
