@@ -94,9 +94,11 @@ a:hover {
 	}
 	
 	#textbike p {
-		position: relative; 
+		position: relative;
 		top: 5%;
 		left: 8%;
+		max-width: 50%;
+		margin: 0 0 3% 0;
 	}
 
 	#textbike-photo {
@@ -104,6 +106,7 @@ a:hover {
 		float: right;
 		margin-right: 10%;
 		margin-top: 10%;
+		margin-bottom: 5%;
 		transform: rotate(7deg);
 		-ms-transform: rotate(7deg); /* IE 9 */
     -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
