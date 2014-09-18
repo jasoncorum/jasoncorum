@@ -18,6 +18,9 @@ ul {
 #intro { 
 	background: #16a085 url(introduction.png); 
 	background-size: cover;
+	-o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size:cover;
 }
 
 	#intro h1 {
@@ -42,6 +45,9 @@ ul {
 #textbike {
 	background: #e74c3c url(textbike-bg.png);
 	background-size: cover;
+	-o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size:cover;
 }
 
 	#textbike h2 {
