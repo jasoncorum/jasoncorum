@@ -15,4 +15,5 @@
 //= require jquery.turbolinks
 //= require curtain.js
 //= require jquery.scrollorama.js
+//= require bootstrap.js
 //= require_tree .
