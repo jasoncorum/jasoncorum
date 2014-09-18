@@ -60,14 +60,18 @@ a:hover {
 }
 
 	#intro h1 {
-		width: 849px; height: 73px;
-		background: url(intro-title.png); text-indent: -9999px;
-		position: relative; top: 20%; left: 0;
+		width: 66%; 
+		height: 73px;
+		background: url(intro-title.png); 
+		text-indent: -9999px;
+		position: relative; 
+		top: 10%; 
+		left: 0;
 	}
 
 	#intro p {
 		position: relative; 
-		top: 25%; 
+		top: 15%; 
 		left: 26%;
 		width: 40%; 
 		margin: 0 0 3% 0;
@@ -97,7 +101,6 @@ a:hover {
 		position: relative;
 		top: 5%;
 		left: 8%;
-		max-width: 50%;
 		margin: 0 0 3% 0;
 	}
 
