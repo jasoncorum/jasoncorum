@@ -15,6 +15,16 @@ ul {
 	list-style-type: none;
 }
 
+a {
+	color:white;
+	text-decoration: none;
+}
+
+a:hover {
+	color:white;
+	text-decoration: underline;
+}
+
 #intro { 
 	background: #16a085 url(introduction.png); 
 	background-size: cover;
