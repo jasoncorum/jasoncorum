@@ -89,3 +89,16 @@ a:hover {
 	#footer p {
 		text-align: center;
 }	
+
+/* Smartphones (portrait and ladscape) ---- */
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+
+section {
+	overflow-x: hidden;
+	height: 400px;
+}
+
+}
