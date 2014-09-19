@@ -69,6 +69,14 @@ a:hover {
 		left: 0;
 	}
 
+	#intro-title {
+		float: left;
+		width: 66%;
+		height: auto;
+		margin-top: 5%;
+		margin-bottom: 5%;
+	}
+
 	#intro p {
 		position: relative; 
 		top: 15%; 
@@ -115,10 +123,13 @@ a:hover {
     -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
 	}
 
-#footer {
+.footer {
 	background: #000;
+	height: 10%;
+	padding: 1% 0 1% 0;
 }
 
-	#footer p {
+	.footer p {
+		margin: 0 0 0 0;
 		text-align: center;
 }	
