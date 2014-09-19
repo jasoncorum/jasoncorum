@@ -1,10 +1,10 @@
 <% provide(:title, 'Home') %>
 	
-<div class="container">
+<div class="container-fluid">
 	<li>
-		<div class="row">
-				<section id="intro">
-					<div class="col-md-12">
+		<section id="intro">
+			<div class="row">
+				<div class="col-md-12">
 
 					<!-- <h1>Jason Corum</h1> -->
 					<%= image_tag "intro-title.png", alt: "Jason Corum", id: "intro-title" %>
@@ -14,17 +14,14 @@
 					<p>After almost a decadle in online communications with a number of organizations in DC (The Brookings Institution, World Food Program USA, and the Biotechnology Industry Organization), I decided to switch over to coding. I am currently freelancing and interested in becoming a full-time web developer.</p>
 	
 					<p>This site includes some examples of my work.</p></div>
-	
-	</section>
+			</div>
+		</section>
 	</li>
-</div>
 
 	<li>
-		<div class="row">
-			<section id="textbike">		
-				
-			<div class="col-md-8">	
-
+		<section id="textbike">		
+			<div class="row">
+				<div class="col-md-6">	
 					<h2>TextBike.com</h2>
 
 					<p>Ever end up going to your regular Bikeshare station for your daily commute only to find that tourists have snaked all the bikes? Yeah, me too...</p>
@@ -35,17 +32,14 @@
 
 					<p><%= link_to "Learn more >>", "http://www.textbike.com/", target: "_blank" %></p>
 				</div>
-
-				<div class="col-md-4">	
-
-				<%= image_tag "textbike.png", alt: "Bikes", id: "textbike-photo" %></div>
-
-			</section>
-		</div>
+				<div class="col-md-6">	
+					<%= image_tag "textbike.png", alt: "Bikes", id: "textbike-photo" %></div>
+			</div>
+		</section>
 	</li>
 </div>
-
-<div class="col-md-12">
-	<%= render "footer" %>
+<div class="row">
+	<div class="col-md-12">
+		<%= render "footer" %>
+	</div>
 </div>
-

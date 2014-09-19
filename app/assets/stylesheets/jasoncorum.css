@@ -1,37 +1,22 @@
 body {
-	font: 18px/30px Sans-serif; color: #fff;
-	padding: 0px;
-	margin: 0px;
+	font: 2em Sans-serif; color: #fff;
 }
 
-.container {
-	padding: 0px;
-	margin: 0px;
-	width: 100%;
-}
-
-.row {
-	padding: 0px;
-	margin: 0px;
-	width: 100%;
-}
-
-.col-md-12{
-	padding: 0px;
-	margin: 0px;	
+.container-fluid {
+    padding: 0px;
 }
 
 p {
-	font: 18px/30px Sans-serif;
-	color: #fff;
+	color: white;
 }
 
 h2 {
-	color:white;
+	color: white;
 }
 
 section {
 	overflow-x: hidden;
+	overflow-y: hidden;
 }
 
 ul {
@@ -64,16 +49,14 @@ a:hover {
 		background: url(intro-title.png); 
 		text-indent: -9999px;
 		position: relative; 
-		top: 10%; 
-		left: 0;
+		margin: 10% 0 0 0;
 	}
 
 	#intro-title {
 		float: left;
 		width: 66%;
 		height: auto;
-		margin-top: 5%;
-		margin-bottom: 5%;
+		margin: 5% 0 5% 0;
 	}
 
 	#intro p {
@@ -98,25 +81,16 @@ a:hover {
 }
 
 	#textbike h2 {
-		position: relative; 
-		margin-top: 10%; 
-		margin-left: 8%;
+		margin: 10% 0 0 8%;
 		font-size: 3em;
 	}
 	
 	#textbike p {
-		position: relative;
-		top: 5%;
-		left: 8%;
-		margin: 0 0 3% 0;
+		margin: 3% 0% 3% 8%;
 	}
 
 	#textbike-photo {
-		position: relative;
-		margin-right: 10%;
-		margin-top: 10%;
-		margin-left: 15%;
-		margin-bottom: 5%;
+		margin: 10% 10% 10% 10%;
 		transform: rotate(7deg);
 		-ms-transform: rotate(7deg); /* IE 9 */
     -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
@@ -125,10 +99,10 @@ a:hover {
 .footer {
 	background: #000;
 	height: 10%;
-	padding: 1% 0 1% 0;
+	padding: 0.5% 0 0.5% 0;
 }
 
 	.footer p {
-		margin: 0 0 0 0;
+		margin: 1% 0 1% 0;
 		text-align: center;
 }	
