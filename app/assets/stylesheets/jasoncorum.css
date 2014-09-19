@@ -32,7 +32,6 @@ h2 {
 
 section {
 	overflow-x: hidden;
-	height: 100vh;
 }
 
 ul {
@@ -102,7 +101,7 @@ a:hover {
 		position: relative; 
 		margin-top: 10%; 
 		margin-left: 8%;
-		font-size: 4em;
+		font-size: 3em;
 	}
 	
 	#textbike p {
