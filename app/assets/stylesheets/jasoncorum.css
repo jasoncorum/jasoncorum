@@ -32,9 +32,42 @@ a:hover {
   line-height: 26px;
 }
 
+.github-icon {
+	background: url(GitHub-Mark-32px.png);
+	margin:  10px 10px 10px 10px;
+	height: 32px;
+	width: 32px;
+}
+
+.github-icon:hover {
+	background: url(GitHub-Mark-Light-32px.png)
+}
+
+.linkedin-icon {
+	background: url(LinkedIn-InBug.png);
+	margin:  10px 10px 10px 10px;
+	height: 32px;
+	width: 32px;
+}
+
+.linkedin-icon:hover {
+	background: url(LinkedIn-InBug-white.png)
+}
+
+.twitter-icon {
+	background: url(Twitter_logo.png);
+	margin:  10px 10px 10px 10px;
+	height: 32px;
+	width: 32px;
+}
+
+.twitter-icon:hover {
+	background: url(Twitter_logo_white.png)
+}
+
 #intro { 
 	background: #16a085 url(introduction.png); 
-	height: 700px; 
+	height: 800px; 
 	background-size: cover;
 	-o-background-size: cover;
   -moz-background-size: cover;
