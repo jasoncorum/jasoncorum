@@ -1,47 +1,14 @@
 <% provide(:title, 'Home') %>
-	
-<div class="container-fluid">
-	<li>
 		<section id="intro">
-			<div class="row">
-				<div class="col-md-12">
-					<%= image_tag "intro-title.png", alt: "Jason Corum", id: "intro-title" %>
-				</div>
+		<div class="row">
+			<div class="col-md-9 col-md-offset-1">
+				<p class= "headline">JASON CORUM</p>
 			</div>
-			<div class="row">
-				<div class="col-md-6 col-md-offset-3">
-					<p class="lead">Hello! I'm a Washington, DC-based Ruby on Rails web developer.</p>
-	
-					<p>After almost a decadle in online communications with a number of organizations in DC (The Brookings Institution, World Food Program USA, and the Biotechnology Industry Organization), I decided to switch over to coding. I am currently freelancing and interested in becoming a full-time web developer.</p>
-	
-					<p>This site includes some examples of my work.</p></div>
-				<div class="col-md-3"></div>
+		</div>
+		<div class="row">
+			<div class="col-md-6 col-md-offset-1">
+				<p class="lead">Web Developer</p>
 			</div>
-		</section>
-	</li>
-
-	<li>
-		<section id="textbike">		
-			<div class="row">
-				<div class="col-md-6">	
-					<h2>TextBike.com</h2>
-
-					<p class="lead">Ever end up going to your regular Bikeshare station for your daily commute only to find that tourists have snaked all the bikes? Yeah, me too...</p>
-
-					<p>TextBike will text you 5-10 minutes before your regular commute time to let you know if your bikestation is precariously low on the number of available bikes.</p> 
-
-					<p>It uses Twilio and Capital Bikeshare XML data to notify users when their bikestation is low on bikes.</p>
-
-					<p><%= link_to "Learn more >>", "http://www.textbike.com/", target: "_blank" %></p>
-				</div>
-				<div class="col-md-6">	
-					<%= image_tag "textbike.png", alt: "Bikes", id: "textbike-photo" %></div>
-			</div>
-		</section>
-	</li>
-</div>
-<div class="row">
-	<div class="col-md-12">
-		<%= render "footer" %>
-	</div>
+		</div>
+	</section>
 </div>

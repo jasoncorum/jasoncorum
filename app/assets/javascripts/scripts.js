@@ -7,8 +7,8 @@ $(document).ready(function(){
 		blocks:'.curtains'
 	});
     
-  scrollorama.animate('#intro h1',{
-  	duration:300, property:'left', end:-849
+  scrollorama.animate('#intro-title',{
+  	duration:100, property:'left', end:-800
   });
 
   scrollorama.animate('#textbike-photo',{

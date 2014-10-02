@@ -27,51 +27,45 @@ a:hover {
 	text-decoration: underline;
 }
 
+.navbar-brand {
+  font-size: 24px;
+  line-height: 26px;
+}
+
 #intro { 
 	background: #16a085 url(introduction.png); 
+	height: 700px; 
 	background-size: cover;
 	-o-background-size: cover;
   -moz-background-size: cover;
   -webkit-background-size:cover;
 }
 
-	#intro-title {
-		float: left;
-		width: 66%;
-		height: auto;
-		margin: 5% 0 5% 0;
+	#intro .headline {
+	  font-size: 72px;
+	  font-weight: 800;
+	  text-align: left;
+	  margin: 15% 0 0 0;
+	}
+
+	#intro .lead {
+		font-size: 40px;
 	}
 
 	#intro p {
 		position: relative; 
-		margin: 3% 15% 3% 8%;
+		margin: 3% 15% 3% 0;
 	}
 
-#textbike {
-	background: #e74c3c url(textbike-bg.png);
-	background-size: cover;
-	-o-background-size: cover;
-  -moz-background-size: cover;
-  -webkit-background-size:cover;
+
+#textbike-photo {
+	margin: 10% 10% 10% 5%;
+	width: 50%;
+	height: auto;
+	/*transform: rotate(7deg);
+	-ms-transform: rotate(7deg);
+  -webkit-transform: rotate(7deg);*/
 }
-
-	#textbike h2 {
-		margin: 10% 0 0 8%;
-		font-size: 3em;
-	}
-	
-	#textbike p {
-		margin: 3% 5% 3% 8%;
-	}
-
-	#textbike-photo {
-		margin: 10% 10% 10% 5%;
-		width: 50%;
-		height: auto;
-		transform: rotate(7deg);
-		-ms-transform: rotate(7deg); /* IE 9 */
-    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
-	}
 
 .footer {
 	background: #000;
