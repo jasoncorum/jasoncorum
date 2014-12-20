@@ -143,6 +143,33 @@ a:hover {
 		padding: 3px;
 	}
 
+#languages {
+	background: #16a085; 
+}
+
+	#languages h3 {
+		text-align: center;
+		color: #222;
+		margin: 60px 0 0 0;
+		font-family: helvetica;
+		font-weight: 300;
+		font-size: 36px;
+	}
+
+	#languages .logo-row{
+		text-align: center;
+	}
+
+	#languages .logos {
+		display: inline-block;
+		max-width: 100%;
+		padding: 8px;
+		background-color: #fff;
+		border: 1px solid #ddd;
+		border-radius: 4px;
+		margin: 5px 15px 15px 15px;
+	}
+
 .footer {
 	background: #000;
 	height: 10%;
