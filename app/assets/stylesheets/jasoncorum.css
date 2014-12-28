@@ -85,6 +85,15 @@ a:hover {
 	background: url(Twitter_logo_white.png)
 }
 
+.resume-icon {
+	background: url(file94-dark.png);
+	margin:  10px 5px 10px 5px;
+}
+
+.resume-icon:hover {
+	background: url(file94-white.png)
+}
+
 #intro { 
 	background: #16a085 url(introduction.png); 
 	height: 800px;
