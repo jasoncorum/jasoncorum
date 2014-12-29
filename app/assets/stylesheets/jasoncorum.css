@@ -88,6 +88,8 @@ a:hover {
 .resume-icon {
 	background: url(file94-dark.png);
 	margin:  10px 5px 10px 5px;
+	height: 32px;
+	width: 32px;
 }
 
 .resume-icon:hover {
