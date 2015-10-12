@@ -39,22 +39,27 @@ ul {
 }
 
 a {
-	color:white;
+	color: white;
 	text-decoration: none;
 }
 
 a:hover {
-	color:white;
+	color: white;
 	text-decoration: underline;
 }
 
 .navbar {
 	padding: 5px 5px 5px 5px;
+	border-radius: 0;
 }
 
 .navbar-brand {
   font-size: 24px;
   line-height: 26px;
+}
+
+.navbar-inverse .navbar-brand {
+  color: #fff;
 }
 
 .github-icon {
