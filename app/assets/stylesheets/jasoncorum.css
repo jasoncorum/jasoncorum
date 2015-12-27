@@ -110,9 +110,10 @@ a:hover {
 	background: #16a085 url(introduction.png); 
 	min-height: 35em;
 	width: 100%;
-	padding: 5px 5px 5px 5px;
+	padding: 5px 5px 5px 15px;
 	background-position: 0 0;
 	background-repeat: no-repeat;
+	overflow: none;
 	background-size: cover;
 	-o-background-size: cover;
   -moz-background-size: cover;
@@ -136,7 +137,6 @@ a:hover {
 		margin: 0% 15% 3% 0;
 	}
 
-
 #work .textbike {
 	margin: 1% 5% 5% 5%;
 	height: auto;
@@ -150,6 +150,21 @@ a:hover {
 	transform: rotate(7deg);
 	-ms-transform: rotate(7deg);
   -webkit-transform: rotate(7deg);
+}
+
+#work .race {
+	margin: 1% 5% 5% 5%;
+	height: auto;
+	width: 40%;
+	float: left;
+	padding: 3px;
+	padding: 8px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	transform: rotate(-7deg);
+	-ms-transform: rotate(-7deg);
+  -webkit-transform: rotate(-7deg);
 }
 
 	#work h3 {

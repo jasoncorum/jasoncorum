@@ -1,12 +1,12 @@
 <% provide(:title, 'Home') %>
 		<section id="intro">
 		<div class="row">
-			<div class="col-md-9 col-md-offset-1">
+			<div class="container col-md-9 col-md-offset-1">
 				<p class= "headline">JASON CORUM</p>
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-md-6 col-md-offset-1">
+			<div class="container col-md-6 col-md-offset-1">
 				<p class="lead">web developer</p>
 			</div>
 		</div>
@@ -14,13 +14,13 @@
 
 	<section id="work">
 		<div class="row">
-			<div class="col-md-6 col-md-offset-3">
+			<div class="container col-md-6 col-md-offset-3">
 				<h3>EXAMPLES OF MY WORK</h3>
 				<hr />
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-md-6 col-md-offset-3">
+			<div class="container col-md-6 col-md-offset-3">
 			<%= image_tag "textbike.png", alt: "TextBike", class: "textbike" %>
 			<p>Ever end up going to your bikeshare station for your daily commute only to find that tourists have snaked all the bikes? Yeah, me too...</p>
 			<p>TextBike will text you 5-10 minutes before your commute to let you know if your bikestation is low on bikes.</p>
@@ -30,19 +30,33 @@
 	  			</button>
 				</div>
 				<br />
-				<br />
 			</div>
 		</div>
+    <div class="row">
+      <div class="container col-md-6 col-md-offset-3">
+      <hr />
+      <%= image_tag "textbike.png", alt: "Race to 2017", class: "race" %>
+      <p>Ahead of the expiration of the solar investment tax credit (ITC) in 2016, Sol Systems launched an advocacy site to promote the extension of the ITC.</p>
+      <p>I created the site using ExpressionEngine, Bootstrap, and JQuery.</p>
+        <div class="btn-group">
+          <button class="btn btn-default btn-xs btn-danger" type="button">
+            <%= link_to "Check Out Race to 2017", "http://raceto2017.com", target: "_blank" %>
+          </button>
+        </div>
+        <br />
+        <br />
+      </div>
+    </div>
 	</section>
 	<section id="languages">
 		<div class="row">
-			<div class="col-md-6 col-md-offset-3">
+			<div class="conatiner col-md-6 col-md-offset-3">
 				<h3>WEB DEVELOPMENT SKILLS</h3>
 				<hr />
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-md-10 col-md-offset-1">
+			<div class="conatiner col-md-10 col-md-offset-1">
 				<div class="logo-row">	
 					<%= image_tag("html5.png", height: "120", width: "120", alt: "HTML", class: "logos") %>
 					<%= image_tag("css3.jpg", height: "120", width: "120", alt: "CSS", class: "logos") %>
